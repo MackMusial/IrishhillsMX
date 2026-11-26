@@ -158,6 +158,7 @@ a { color: inherit; text-decoration-thickness: 2px; text-underline-offset: 0.2em
 .btn-quiet:hover { color: var(--orange-text); }
 .btn-outline { background-color: transparent; border-color: currentColor; color: var(--ink); padding-inline: 1.1rem; }
 .section-green .btn-outline { color: var(--paper); }
+.section-green .btn-outline:hover { color: var(--on-fill); }
 
 /* ---------- masthead ---------- */
 .masthead {
