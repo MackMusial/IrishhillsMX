@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-26T04:10:47.564659Z",
+  "title": "Design System: IrishHillsMX",
+  "extensions": {
+    "colorMeta": {
+      "poster-paper": {
+        "role": "neutral",
+        "displayName": "Poster Paper",
+        "canonical": "#ece3cf",
+        "tonalRamp": [
+          "#47443e",
+          "#767268",
+          "#a59f91",
+          "#d0c8b6",
+          "#f0e9d9",
+          "#f5f0e5",
+          "#f9f7f1",
+          "#fdfcf9"
+        ]
+      },
+      "poster-paper-deep": {
+        "role": "neutral",
+        "displayName": "Deep Paper",
+        "canonical": "#e1d5ba",
+        "tonalRamp": [
+          "#444038",
+          "#706a5d",
+          "#9e9582",
+          "#c6bba4",
+          "#e7ddc8",
+          "#eee8d9",
+          "#f6f2ea",
+          "#fbfaf7"
+        ]
+      },
+      "press-ink": {
+        "role": "neutral",
+        "displayName": "Press Ink",
+        "canonical": "#1b1915",
+        "tonalRamp": [
+          "#080806",
+          "#0e0c0a",
+          "#13120f",
+          "#181612",
+          "#494744",
+          "#82807e",
+          "#bbbab9",
+          "#e4e3e3"
+        ]
+      },
+      "press-ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#4a4337",
+        "tonalRamp": [
+          "#161410",
+          "#25221c",
+          "#342f26",
+          "#413b30",
+          "#6e695f",
+          "#9b9891",
+          "#c9c7c3",
+          "#e9e8e7"
+        ]
+      },
+      "mud-orange": {
+        "role": "primary",
+        "displayName": "Mud Orange",
+        "canonical": "#e0612a",
+        "tonalRamp": [
+          "#431d0d",
+          "#703015",
+          "#9d441d",
+          "#c55525",
+          "#e68155",
+          "#eea88a",
+          "#f6d0bf",
+          "#fbece5"
+        ]
+      },
+      "mud-orange-text": {
+        "role": "primary",
+        "displayName": "Mud Orange, Text Weight",
+        "canonical": "#a8400e",
+        "tonalRamp": [
+          "#321304",
+          "#542007",
+          "#762d0a",
+          "#94380c",
+          "#b9663e",
+          "#cf967a",
+          "#e5c6b7",
+          "#f5e8e2"
+        ]
+      },
+      "mud-orange-lit": {
+        "role": "primary",
+        "displayName": "Mud Orange, Lit",
+        "canonical": "#f0773a",
+        "tonalRamp": [
+          "#482411",
+          "#783c1d",
+          "#a85329",
+          "#d36933",
+          "#f39261",
+          "#f7b493",
+          "#fad6c4",
+          "#fdefe7"
+        ]
+      },
+      "forest-green": {
+        "role": "secondary",
+        "displayName": "Forest Green",
+        "canonical": "#233f2a",
+        "tonalRamp": [
+          "#0a130d",
+          "#122015",
+          "#182c1d",
+          "#1f3725",
+          "#4f6555",
+          "#86958a",
+          "#bdc5bf",
+          "#e5e8e5"
+        ]
+      },
+      "forest-green-deep": {
+        "role": "secondary",
+        "displayName": "Deep Forest",
+        "canonical": "#1a3020",
+        "tonalRamp": [
+          "#080e0a",
+          "#0d1810",
+          "#122216",
+          "#172a1c",
+          "#48594d",
+          "#818d84",
+          "#bac1bc",
+          "#e4e6e4"
+        ]
+      },
+      "on-green-soft": {
+        "role": "neutral",
+        "displayName": "Soft Green Text",
+        "canonical": "#c6d0b8",
+        "tonalRamp": [
+          "#3b3e37",
+          "#63685c",
+          "#8b9281",
+          "#aeb7a2",
+          "#d1d9c6",
+          "#e0e5d8",
+          "#eef1ea",
+          "#f8f9f6"
+        ]
+      },
+      "on-ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Paper Text",
+        "canonical": "#c9bfa9",
+        "tonalRamp": [
+          "#3c3933",
+          "#646054",
+          "#8d8676",
+          "#b1a895",
+          "#d4ccba",
+          "#e1dcd0",
+          "#efece5",
+          "#f9f7f5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Stacked hero wordmark only: IrishHills over MX."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Uppercase section titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Poster-scale facts: ride dates and fee amounts. Never wraps."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running text, 60–62ch measure."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase condensed nav, buttons, weekdays, fee labels, tags."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing for every transition."
+      },
+      {
+        "name": "print-wipe",
+        "value": "clip-path 0.95s ease-out 0.1s",
+        "purpose": "Hero photo wipes in on load."
+      },
+      {
+        "name": "registration",
+        "value": "transform 1.1s ease-out 0.75s",
+        "purpose": "Key plate slides into near-registration."
+      },
+      {
+        "name": "circle-draw",
+        "value": "stroke-dashoffset 0.9s ease-out 1.3s",
+        "purpose": "Circle drawn around the next date."
+      },
+      {
+        "name": "photo-print",
+        "value": "one-shot keyframes: clip-path inset(0 100% 0 0)->inset(0) 0.9s on img and ::after, background-size pull on the figure; no register shift",
+        "purpose": "Lower photos print once when they enter view."
+      },
+      {
+        "name": "ink-pull",
+        "value": "clip-path 0.75s ease-out on .ride.is-next::before; tag stamp 0.3s at 0.7s",
+        "purpose": "Next-ride row inked when the list enters view."
+      },
+      {
+        "name": "ink-flash",
+        "value": "on scrollend: 45% orange held 0-35%, then fades to transparent over 1.4s",
+        "purpose": "Row you jumped to from the date band."
+      },
+      {
+        "name": "squeegee",
+        "value": "background-size 0%->100% 0.32s in / 0.16s out",
+        "purpose": "Button hover fill."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "48em"
+      },
+      {
+        "name": "desktop",
+        "value": "64em"
+      },
+      {
+        "name": "wide",
+        "value": "80em"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Orange spot-ink button for the main action.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">See all ride dates <svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5v14M6 13l6 6 6-6\"/></svg></a>",
+      "css": ":host{--paper:#ece3cf;--ink:#1b1915;--orange:#e0612a;--orange-text:#a8400e;--orange-lit:#f0773a;--green:#233f2a;--on-ink-soft:#c9bfa9} .ds-btn-primary{display:inline-flex;align-items:center;gap:.55rem;min-height:3rem;padding:.8rem 1.4rem .75rem;background:var(--orange);color:var(--ink);border:2px solid var(--orange);border-radius:2px;font:700 1.1rem/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s cubic-bezier(.16,1,.3,1),color .2s,border-color .2s}.ds-btn-primary:hover{background:var(--ink);border-color:var(--ink);color:var(--paper)}.ds-btn-primary:focus-visible{outline:3px solid var(--orange-text);outline-offset:3px}.ds-btn-primary:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action, e.g. Get directions.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">Get directions</a>",
+      "css": ":host{--paper:#ece3cf;--ink:#1b1915;--orange:#e0612a;--orange-text:#a8400e;--orange-lit:#f0773a;--green:#233f2a;--on-ink-soft:#c9bfa9} .ds-btn-outline{display:inline-flex;align-items:center;min-height:3rem;padding:.8rem 1.1rem .75rem;background:transparent;color:var(--ink);border:2px solid currentColor;border-radius:2px;font:700 1.1rem/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s,color .2s}.ds-btn-outline:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}.ds-btn-outline:focus-visible{outline:3px solid var(--orange-text);outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "masthead",
+      "description": "Sticky paper masthead with the exact wordmark and condensed links.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\">IrishHills<span>MX</span></a><nav><a href=\"#\">The track</a><a href=\"#\">Ride dates</a><a href=\"#\">Fees</a><a href=\"#\">Contact</a></nav></header>",
+      "css": ":host{--paper:#ece3cf;--ink:#1b1915;--orange:#e0612a;--orange-text:#a8400e;--orange-lit:#f0773a;--green:#233f2a;--on-ink-soft:#c9bfa9} .ds-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:4rem;padding:0 1.5rem;background:var(--paper);border-bottom:2px solid var(--ink);color:var(--ink)}.ds-wordmark{font:900 1.75rem/1 'Big Shoulders Display','Barlow Condensed',sans-serif;color:var(--ink);text-decoration:none}.ds-wordmark span{color:var(--orange-text)}.ds-nav nav{display:flex;gap:1.5rem}.ds-nav nav a{font:700 1rem/1 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 2px no-repeat;padding-bottom:3px;transition:background-size .3s cubic-bezier(.16,1,.3,1)}.ds-nav nav a:hover{background-size:100% 2px}"
+    },
+    {
+      "name": "Ride Row (next)",
+      "kind": "custom",
+      "refersTo": "ride-row-next",
+      "description": "Signature: the next ride printed in solid orange.",
+      "html": "<div class=\"ds-ride\"><span class=\"ds-ride-num\">1</span><div><span class=\"ds-ride-wd\">Saturday</span><time class=\"ds-ride-date\">May 15</time></div><span class=\"ds-tag\">Next ride</span></div>",
+      "css": ":host{--paper:#ece3cf;--ink:#1b1915;--orange:#e0612a;--orange-text:#a8400e;--orange-lit:#f0773a;--green:#233f2a;--on-ink-soft:#c9bfa9} .ds-ride{display:grid;grid-template-columns:3rem 1fr auto;align-items:center;gap:1.5rem;padding:1.35rem 1.25rem;background:var(--orange);color:var(--ink);border-top:2px solid var(--ink)}.ds-ride-num{font:700 2.25rem/1 'Big Shoulders Display',sans-serif}.ds-ride-wd{display:block;font:700 .95rem/1.2 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase}.ds-ride-date{display:block;font:900 4rem/.92 'Big Shoulders Display',sans-serif;text-transform:uppercase;white-space:nowrap}.ds-tag{padding:.3rem .6rem .25rem;background:var(--ink);color:var(--paper);border-radius:2px;font:700 .85rem/1 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase}"
+    },
+    {
+      "name": "Fee Row",
+      "kind": "custom",
+      "refersTo": "fee",
+      "description": "A fee at poster scale on the black fee sheet.",
+      "html": "<div class=\"ds-fee\"><span class=\"ds-fee-group\">Guest riders</span><span class=\"ds-fee-label\">Adult</span><span class=\"ds-fee-val\"><b>$40</b> flat fee</span></div>",
+      "css": ":host{--paper:#ece3cf;--ink:#1b1915;--orange:#e0612a;--orange-text:#a8400e;--orange-lit:#f0773a;--green:#233f2a;--on-ink-soft:#c9bfa9} .ds-fee{display:grid;gap:.6rem;padding:1.5rem;background:var(--ink);color:var(--paper)}.ds-fee-group{font:700 1.15rem/1.2 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--orange-lit)}.ds-fee-label{font:700 1rem/1.2 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase}.ds-fee-val{display:flex;align-items:baseline;gap:.8rem;color:var(--on-ink-soft);font:500 1rem 'Barlow',sans-serif}.ds-fee-val b{font:900 4.5rem/1 'Big Shoulders Display',sans-serif;color:var(--paper)}"
+    },
+    {
+      "name": "Placeholder Tag",
+      "kind": "chip",
+      "refersTo": "placeholder-tag",
+      "description": "Dashed marker on any unconfirmed fact.",
+      "html": "<span class=\"ds-ph\">Spectator entry: to be <span class=\"ds-ph-end\">announced <span class=\"ds-ph-tag\">Placeholder</span></span></span>",
+      "css": ":host{--paper:#ece3cf;--ink:#1b1915;--orange:#e0612a;--orange-text:#a8400e;--orange-lit:#f0773a;--green:#233f2a;--on-ink-soft:#c9bfa9} .ds-ph{color:var(--ink);font:400 1rem 'Barlow',sans-serif;text-decoration:underline dashed 1px;text-underline-offset:.25em}.ds-ph-end{white-space:nowrap}.ds-ph-tag{display:inline-block;margin-left:.15em;padding:.1em .45em .05em;border:1.5px dashed currentColor;border-radius:2px;font:700 .72rem/1.4 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase;vertical-align:.2em;text-decoration:none}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Two-Ink Race Poster",
+    "overview": "The whole site is one screenprinted race poster for the season. It is printed on uncoated poster paper, with black ink and only two spot inks: mud orange and forest green. The ride dates are the headline, set huge and stacked, and the next ride is circled the way someone would ring a date on a poster pinned up in the shop. Photos aren't shown in full colour. Each one is printed as a duotone in a single ink, with the key plate slightly out of register, so stock photos and the owners' phone snapshots all look like part of the same print run.\n\nThe pages are dense, the way a flyer is. Heavy 2px rules divide the content instead of boxes and cards. Sections alternate between bare paper and full-bleed ink areas (green for About and Contact, black for Fees), like separate passes on the press. Practical facts sit at poster scale. A visitor should be able to read the next ride date, the guest fee and the address from across a parking lot.\n\nThe site rejects the common motocross-site template: a dark full-bleed photo, a neon orange button, and a grid of icon cards. It also never uses gradients, glass effects or soft drop shadows.",
+    "keyCharacteristics": [
+      "Paper background, black text, two spot inks, and nothing else.",
+      "Display type that is condensed, heavy and stacked; body text that is plain and readable.",
+      "Rules and full-bleed colour blocks give the page structure. There are no cards.",
+      "Photos are one-ink duotones with a slight misregistration.",
+      "Unknown facts are labelled visibly with dashed Placeholder tags rather than hidden."
+    ],
+    "rules": [
+      {
+        "name": "The Two Spot Inks Rule",
+        "body": "Orange and green are the only colours besides black and paper. A third hue, a gradient or a tint ramp would make it no longer a two-ink print.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lit / Text Split Rule",
+        "body": "Orange has three weights by surface: the fill colour for solid areas, `mud-orange-text` for text on paper, and `mud-orange-lit` for text on black or green. Never set fill-weight orange as text on paper.",
+        "section": "colors"
+      },
+      {
+        "name": "The Name Is Exact Rule",
+        "body": "The name is always written **IrishHillsMX**, as one word in mixed case. The wordmarks are not uppercased for that reason, even though other display type is.",
+        "section": "typography"
+      },
+      {
+        "name": "The Dates Never Wrap Rule",
+        "body": "A ride date or fee amount stays on one line at every width. When space runs short, the layout changes rather than the date breaking.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Print Rule",
+        "body": "Never use `box-shadow` for depth. If something needs to stand out, give it ink (an orange fill, a black band) or a heavier rule.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Echo Rule",
+        "body": "New motion repeats the print idea (an ink pull, a stamp or a registration shift) or it isn't added. A generic fade-up never gets added just to make a section appear.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** keep every colour within the two spot inks, black and paper.",
+      "**Do** print new photos as one-ink duotones in orange or green, and keep the slight key-plate offset.",
+      "**Do** use 2px rules and full-bleed ink areas to divide content.",
+      "**Do** keep ride dates and fee amounts on one line at poster scale, and change the layout when they don't fit.",
+      "**Do** mark every unconfirmed fact with the dashed Placeholder treatment.",
+      "**Do** write the name as **IrishHillsMX**."
+    ],
+    "donts": [
+      "**Don't** use drop shadows, gradients, glass effects or blur.",
+      "**Don't** wrap content in cards or use a grid of equal-size cards.",
+      "**Don't** round corners beyond `2px`.",
+      "**Don't** add a third accent colour or a grey for secondary text. Tint it from the background instead.",
+      "**Don't** put a tag on every ride row. Tags only mark Next, Today and Past.",
+      "**Don't** use the dashed border or underline for anything except placeholders."
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IrishHillsMX · Private motocross track in Manchester, Michigan</title>
+  <meta name="description" content="IrishHillsMX is a private motocross track with a separate kids track in Manchester, in Michigan's Irish Hills. Ride days, rider fees, gate requirements and directions.">
+  <meta name="theme-color" content="#1b1915">
+  <meta property="og:title" content="IrishHillsMX · Private motocross track">
+  <meta property="og:description" content="A private motocross track with a separate kids track in Manchester, Michigan.">
+  <meta property="og:image" content="images/hero-roost-1200.webp">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="wordmark" href="#top" aria-label="IrishHillsMX home">IrishHills<span>MX</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+          <span class="menu-toggle-bars" aria-hidden="true"></span>
+          Menu
+        </button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#about">The track</a></li>
+          <li><a href="#rides">Ride dates</a></li>
+          <li><a href="#prices">Fees</a></li>
+          <li><a href="#info">Track info</a></li>
+          <li><a href="#merch">Merch</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 class="poster-title" id="hero-title" aria-label="IrishHillsMX">
+          <span>IrishHills</span>
+          <span class="poster-title-mx">MX</span>
+        </h1>
+        <p class="hero-lede">A private motocross track in Manchester, Michigan, with a separate kids track. Load up the bikes, bring the kids, and come ride.</p>
+
+        <!-- Filled in from js/site-data.js -->
+        <div class="next-ride" data-next-ride aria-live="polite">
+          <h2 class="next-ride-label">Next ride day</h2>
+          <p class="next-ride-date">See ride dates below</p>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#rides">
+            See all ride dates
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+          </a>
+          <a class="btn btn-quiet" href="#prices">Rider fees</a>
+        </div>
+      </div>
+
+      <!-- PHOTO: Stock photo by Alina Rubo (Unsplash). Replace images/hero-roost.webp and
+           images/hero-roost-1200.webp with a wide photo of your own track, and update the alt text. -->
+      <figure class="hero-print print print--orange">
+        <img src="images/hero-roost.webp"
+             srcset="images/hero-roost-1200.webp 1200w, images/hero-roost.webp 1800w"
+             sizes="(min-width: 64em) 58vw, 100vw"
+             width="1800" height="1201"
+             alt="A motocross rider leans into a sandy hillside turn, throwing a wave of dirt off the rear wheel."
+             fetchpriority="high">
+        <img class="print-key" src="images/hero-roost.webp"
+             srcset="images/hero-roost-1200.webp 1200w, images/hero-roost.webp 1800w"
+             sizes="(min-width: 64em) 58vw, 100vw"
+             width="1800" height="1201" alt="" aria-hidden="true">
+      </figure>
+
+      <!-- Filled in from js/site-data.js: this season's five dates, next one circled -->
+      <div class="date-run" data-date-run hidden>
+        <h2 class="date-run-title" data-date-run-title>This season</h2>
+        <ol class="date-run-list" data-date-run-list></ol>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section class="about section-green" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <div class="about-copy">
+          <h2 class="section-title" id="about-title">A private track in Irish Hills MI.</h2>
+          <p class="about-lead">IrishHillsMX is a private motocross track on Sharon Hollow Road in Manchester, Michigan. It isn't open to the public: ride as a member, or come out as a guest rider.</p>
+          <p>Next to the main track there's a separate kids track, so the whole family has somewhere to ride, from first laps to years of racing. Track conditions, events and any changes are posted in the club's <a href="https://www.facebook.com/groups/1685273218427270/" data-group-link>Facebook group</a>.</p>
+          <p class="ph-block"><span class="ph">Add a short description of the main track and the kids track here: length, layout, jumps and <span class="ph-end">soil. <span class="ph-tag">Placeholder</span></span></span></p>
+        </div>
+
+        <!-- PHOTO: Stock photo by Gabriel Sanchez (Unsplash). Replace images/riders-corner.webp with a photo of riders on your track. -->
+        <figure class="about-print print print--green print--scroll" data-reveal>
+          <img src="images/riders-corner.webp" width="1600" height="1067" loading="lazy"
+               alt="Three motocross riders race through a rutted dirt corner, the leader in a bright helmet looking ahead.">
+        </figure>
+
+        <div class="expect">
+          <h3 class="expect-title">What to expect on a ride day</h3>
+          <dl class="expect-list">
+            <div>
+              <dt>Open riding</dt>
+              <dd>Time on the track on a scheduled ride day. Ride at your own pace.</dd>
+            </div>
+            <div>
+              <dt>A separate kids track</dt>
+              <dd>Younger riders get a track of their own, apart from the main track.</dd>
+            </div>
+            <div>
+              <dt>A full day outdoors</dt>
+              <dd>Bring chairs, food and shade. Pit with friends between motos.</dd>
+            </div>
+            <div>
+              <dt>Check the group first</dt>
+              <dd>Track conditions, events and changes are posted in the club's Facebook group.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== RIDE DATES ============================== -->
+    <section class="rides" id="rides" aria-labelledby="rides-title">
+      <div class="wrap">
+        <div class="rides-head">
+          <h2 class="section-title" id="rides-title" data-rides-title>Ride dates</h2>
+          <p class="rides-hours" data-ride-hours></p>
+        </div>
+        <p class="sample-banner" data-sample-banner hidden>
+          <strong>Tentative dates.</strong> These are estimates based on last season. Watch the <a href="https://www.facebook.com/groups/1685273218427270/" data-group-link>Facebook group</a> for confirmed ride days.
+        </p>
+
+        <!-- Filled in from js/site-data.js -->
+        <ol class="ride-list" data-ride-list></ol>
+        <p class="rides-empty" data-rides-empty hidden>Next season's dates haven't been announced yet. Check back soon.</p>
+
+        <details class="past-seasons" data-past-seasons hidden>
+          <summary>Earlier ride days</summary>
+          <ul class="past-list" data-past-list></ul>
+        </details>
+
+        <noscript>
+          <p class="sample-banner">Ride dates need JavaScript to display. Ride dates are listed in <code>js/site-data.js</code>.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- ============================== PRICES ============================== -->
+    <section class="prices section-ink" id="prices" aria-labelledby="prices-title">
+      <div class="wrap">
+        <h2 class="section-title" id="prices-title">Rider fees</h2>
+        <!-- Filled in from js/site-data.js (fees) -->
+        <div class="price-sheet" data-fee-sheet></div>
+        <noscript><p>Members: $90 per year, plus $15 each ride; kids track free. Guest riders: $40 adult, $15 kids track. No spectator fee. Cash only.</p></noscript>
+        <ul class="price-notes" data-price-notes></ul>
+      </div>
+    </section>
+
+    <!-- ============================== TRACK INFO ============================== -->
+    <section class="info" id="info" aria-labelledby="info-title">
+      <div class="wrap info-grid">
+        <div class="info-aside">
+          <h2 class="section-title" id="info-title">Know before you go</h2>
+          <!-- PHOTO: Stock photo by Andraz Lazic (Unsplash). Replace images/rider-jump.webp with a photo from your track. -->
+          <figure class="info-print print print--orange print--scroll" data-reveal>
+            <img src="images/rider-jump.webp" width="1400" height="1750" loading="lazy"
+                 alt="A rider on a red dirt bike flies over a jump as other riders follow and spectators watch from the fence line.">
+          </figure>
+        </div>
+
+        <div class="info-body">
+          <article class="info-block">
+            <h3>Location</h3>
+            <p><span data-address></span></p>
+            <p><a class="btn btn-outline" data-directions href="https://www.google.com/maps/search/?api=1&amp;query=14758+Sharon+Hollow+Rd%2C+Manchester%2C+MI+48158" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11a6.5 6.5 0 0 1 13 0c0 4.9-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></svg>
+              Get directions<span class="visually-hidden"> (opens Google Maps in a new tab)</span>
+            </a></p>
+            <p class="small" data-directions-note hidden>Directions go to the Irish Hills area until the exact address is added.</p>
+          </article>
+
+          <article class="info-block">
+            <h3>Riding hours</h3>
+            <p data-hours-detail></p>
+            <p class="small">IrishHillsMX is a private track, not open to the public. Check the <a href="https://www.facebook.com/groups/1685273218427270/" data-group-link>Facebook group</a> for track conditions and changes before you head out.</p>
+          </article>
+
+          <article class="info-block">
+            <h3>Required at the gate</h3>
+            <ol class="rules">
+              <li><span><strong>Cash only.</strong> Bring cash for your fee.</span></li>
+              <li><span><strong>Proof of medical insurance.</strong> It's required to ride on the track. Show it at the gate.</span></li>
+              <li><span><strong>Riders under 18</strong> must have a parent or legal guardian with them, or a notarized letter of permission from a parent.</span></li>
+            </ol>
+          </article>
+
+          <article class="info-block">
+            <h3>Track rules</h3>
+            <p class="small"><span class="ph">These are common motocross safety rules. The owners still need to confirm the final <span class="ph-end">list. <span class="ph-tag">Placeholder</span></span></span></p>
+            <ol class="rules">
+              <li>DOT or ECE approved helmet, goggles, boots, gloves and long sleeves and pants on the track at all times.</li>
+              <li>Ride in the direction of the track only. Never stop on a blind landing or in a corner.</li>
+              <li>Walking speed in the pits and parking areas.</li>
+              <li>Youth riders on youth-sized bikes, supervised by an adult.</li>
+              <li>No alcohol until bikes are loaded for the day.</li>
+              <li>Pack out your trash and leave the pits clean.</li>
+            </ol>
+          </article>
+
+          <article class="info-block">
+            <h3>What to bring</h3>
+            <ul class="bring">
+              <li>Proof of medical insurance</li>
+              <li>Cash for the gate (cash only)</li>
+              <li>For riders under 18: a parent or legal guardian, or a notarized letter from a parent</li>
+              <li>Helmet, goggles, boots, gloves and riding gear</li>
+              <li>Chest protector and knee braces (recommended)</li>
+              <li>Fuel, a gas can and basic tools</li>
+              <li>A stand, tie-downs and a tarp for the pit</li>
+              <li>Plenty of water, food and snacks</li>
+              <li>Chairs, a canopy and sunscreen</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== MERCH ============================== -->
+    <!-- When merch is ready, replace the "Coming soon" text below with what's for sale and how to buy it. -->
+    <section class="merch section-ink" id="merch" aria-labelledby="merch-title">
+      <div class="wrap merch-grid">
+        <h2 class="section-title" id="merch-title">Merch</h2>
+        <div class="merch-body">
+          <p class="merch-soon">Coming soon</p>
+          <p>IrishHillsMX merch is on the way. Watch the Facebook group for the drop.</p>
+          <a class="btn btn-primary" data-group-link href="https://www.facebook.com/groups/1685273218427270/" target="_blank" rel="noopener">
+            Follow the group for updates<span class="visually-hidden"> (opens in a new tab)</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section class="contact section-green" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <h2 class="contact-title" id="contact-title">See you at the gate.</h2>
+        <div class="contact-body">
+          <p>The club's Facebook group is the main place for news: track conditions, ride days, events and changes. Questions go there too.</p>
+          <dl class="contact-list">
+            <div data-contact-row="group"><dt>Group</dt><dd data-contact="group"></dd></div>
+            <div data-contact-row="facebook"><dt>Page</dt><dd data-contact="facebook"></dd></div>
+            <div data-contact-row="phone" hidden><dt>Phone</dt><dd data-contact="phone"></dd></div>
+            <div data-contact-row="email" hidden><dt>Email</dt><dd data-contact="email"></dd></div>
+            <div><dt>Where</dt><dd data-contact-address></dd></div>
+          </dl>
+          <div class="contact-actions">
+          <a class="btn btn-primary" data-group-link href="https://www.facebook.com/groups/1685273218427270/" target="_blank" rel="noopener">
+            Join the Facebook group<span class="visually-hidden"> (opens in a new tab)</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+          <a class="btn btn-outline" data-directions href="https://www.google.com/maps/search/?api=1&amp;query=14758+Sharon+Hollow+Rd%2C+Manchester%2C+MI+48158" target="_blank" rel="noopener">
+            Get directions<span class="visually-hidden"> (opens Google Maps in a new tab)</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="wordmark wordmark--footer">IrishHills<span>MX</span></p>
+      <p>&copy; <span data-year>2026</span> IrishHillsMX. Riding motorcycles is dangerous. Ride within your ability.</p>
+      <p class="small">Photos: Alina Rubo, Gabriel Sanchez and Andraz Lazic on Unsplash.</p>
+    </div>
+  </footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
