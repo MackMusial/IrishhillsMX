@@ -191,6 +191,9 @@ A black strip at the bottom of the hero showing the season's dates, each with a 
 ### Fee sheet
 Fees are grouped into columns: Members and Guest riders. Each group has an orange label, then rows with a paper-coloured label, the amount at poster scale, and a soft "per" note beside it. A short list of notes with orange dashes sits underneath. This section is filled from `js/site-data.js`.
 
+### Crew roster
+Laid out like a race-program entry list, not a grid of profile cards. Each person gets a row under a 2px paper rule, in two columns from 48em up. The row holds a square photo (5.5rem) printed as an orange duotone, the name in uppercase display type, the position as an orange label, and an optional soft note. Someone with no photo gets a dashed square with their initials. The section is filled from `js/site-data.js`.
+
 ### Placeholder tag
 Placeholder text gets a dashed underline, and a small dashed box reading "Placeholder" follows it. The tag always stays on the same line as the word before it. It is meant to be seen.
 

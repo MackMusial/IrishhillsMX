@@ -101,4 +101,20 @@ window.SITE_DATA = {
     phone: { text: "", link: "" },
     email: { text: "", link: "" },
   },
+
+  /* -------------------------------------------------------------------
+     MEET THE CREW
+     One entry per person, in the order you want them shown.
+       name:  their name as it should appear
+       role:  their position, e.g. "Owner", "Track builder", "Gate"
+       note:  optional short line about them ("" to leave out)
+       photo: optional. Put a photo in images/crew/ and write its file
+              name here, e.g. "images/crew/jake.webp". Leave "" for none.
+     Delete the placeholder entries once the real crew is in.
+     ------------------------------------------------------------------- */
+  crew: [
+    { name: "Crew member name", role: "Position", note: "A short line about them.", photo: "", placeholder: true },
+    { name: "Crew member name", role: "Position", note: "", photo: "", placeholder: true },
+    { name: "Crew member name", role: "Position", note: "", photo: "", placeholder: true },
+  ],
 };

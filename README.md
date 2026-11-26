@@ -40,6 +40,7 @@ To update the site, edit the files and copy them to the server again. Nothing ne
 | Notes under the fees (cash only, spectators) | `feeNotes:` |
 | Address and the Get Directions link | `location:` |
 | Facebook group and page, phone, email | `contact:` |
+| Meet the crew (names, positions, photos) | `crew:` |
 
 The site works out the rest on its own:
 - The next upcoming ride is circled at the top of the page and highlighted in the calendar.
@@ -48,6 +49,7 @@ The site works out the rest on its own:
 - Upcoming rides get an **Add to calendar** link.
 - A fee marked `inHero: true` also appears next to the next ride date at the top of the page.
 - Phone and email rows stay hidden until you fill them in.
+- Crew members without a photo get a box with their initials. To add a photo, put a square image in `images/crew/` (create the folder) and set `photo:` to its path, e.g. `"images/crew/jake.webp"`. It is printed in orange like the other photos.
 
 **Placeholders:** any item with `placeholder: true` shows a small dashed **Placeholder** tag on the site. When you enter the real info, change it to `placeholder: false`. The ride dates are currently samples, so set `ridesArePlaceholder: false` once the real dates are in.
 
