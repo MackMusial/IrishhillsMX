@@ -161,6 +161,23 @@ a { color: inherit; text-decoration-thickness: 2px; text-underline-offset: 0.2em
 .section-green .btn-outline:hover { color: var(--on-fill); }
 
 /* ---------- masthead ---------- */
+.dev-banner {
+  margin: 0;
+  padding: 0.55rem var(--gutter);
+  background: var(--ink);
+  color: var(--paper);
+  font: 500 0.95rem/1.35 var(--text);
+  text-align: center;
+}
+.dev-banner-tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: var(--orange-lit);
+  font: 700 0.95rem/1 var(--label);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .masthead {
   position: sticky; top: 0; z-index: 50;
   background: var(--paper);
@@ -655,6 +672,16 @@ a.ride-cal:hover { color: var(--orange-text); }
 .wordmark--footer { color: var(--paper); font-size: 2rem; margin-bottom: 0.4rem; }
 .wordmark--footer span { color: var(--orange-lit); }
 .site-footer .small { color: var(--on-ink-soft); }
+.dev-credit { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.4rem; font-size: 0.85rem; }
+.dev-credit-tag {
+  padding: 0.2rem 0.45rem 0.15rem;
+  border: 1px solid var(--orange-lit);
+  border-radius: 2px;
+  color: var(--orange-lit);
+  font: 700 0.75rem/1 var(--label);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
 
 /* =====================================================================
    MOTION — one authored moment (the print), plus quiet reveals.
